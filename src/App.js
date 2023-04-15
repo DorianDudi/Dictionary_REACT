@@ -1,7 +1,7 @@
 import './App.css';
 //import ExportComponent from './test_component.js';
-import addWord from './dictionar_app_src/001_addWord.js';
-import searchForWord from './dictionar_app_src/002_searchForWord.js';
+import addWord from './dictionar_app_src/addWord.js';
+import searchForWord from './dictionar_app_src/searchForWord.js';
 const dictionary = [];
 
 export default function App() {
