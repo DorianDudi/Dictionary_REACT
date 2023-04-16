@@ -1,7 +1,7 @@
-export default function searchForWord(words_array) {
+export default function searchForWord(wordList) {
 	let searchField = document.getElementById("searchField");
 	let userMessage = document.getElementById("userMessage");
-	if(words_array.includes(searchField.value)) {
+	if(wordList.includes(searchField.value)) {
 		userMessage.innerHTML = "<h3>Word found in Dictionary!</h3>";
 		setTimeout(() => {userMessage.innerHTML = "";}, 4000);
 	} else {
