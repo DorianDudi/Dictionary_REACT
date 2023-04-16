@@ -1,8 +1,8 @@
-export default function addWord(dictionary_param) {
+export default function addWord(wordList) {
 	let inputField = document.getElementById("addField");
 	let userMessage = document.getElementById("userMessage");
 	if(inputField.value != "") {
-		dictionary_param.push(inputField.value);
+		wordList.push(inputField.value);
 		inputField.value = "";
 		userMessage.innerHTML = "<h3>Word added to dictionary!</h3>";
 		setTimeout(() => {userMessage.innerHTML = "";}, 4000);
