@@ -1,6 +1,6 @@
 export default function addWord(dictionary_param) {
 	let inputField = document.getElementById("addField");
-	const userMessage = document.getElementById("userMessage");
+	let userMessage = document.getElementById("userMessage");
 	if(inputField.value != "") {
 		dictionary_param.push(inputField.value);
 		inputField.value = "";
