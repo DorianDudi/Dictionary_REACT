@@ -1,7 +1,7 @@
 export default function addWord(wordList) {
 	let inputField = document.getElementById("addField");
 	let userMessage = document.getElementById("userMessage");
-	if(inputField.value != "") {
+	if (inputField.value != "") {
 		wordList.push(inputField.value);
 		inputField.value = "";
 		userMessage.innerHTML = "<h3>Word added to dictionary!</h3>";
